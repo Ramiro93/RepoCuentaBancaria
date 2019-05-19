@@ -12,8 +12,9 @@ public class CuentaSueldo extends Cuenta {
 	public void depositar(Double deposito) {
 
 		if (deposito > 0) {
-			this.cantidad =+ deposito;
+			this.cantidad += deposito;
 		}
+		
 	}
 	
 	@Override

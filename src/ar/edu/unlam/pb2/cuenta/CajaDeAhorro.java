@@ -15,7 +15,7 @@ public class CajaDeAhorro extends Cuenta {
 	public void depositar(Double deposito) {
 
 		if (deposito > 0) {
-			this.cantidad =+ deposito;
+			this.cantidad += deposito;
 		}
 	}
 	
@@ -26,7 +26,7 @@ public class CajaDeAhorro extends Cuenta {
 			
 			if(intentos < EXTRACCIONES) {
 				
-				this.cantidad = this.cantidad - this.cantidad;
+				this.cantidad -= cantidad;
 				
 				intentos++;
 			}
